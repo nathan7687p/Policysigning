@@ -1,0 +1,156 @@
+Program After Sign-Up – Full Workflow
+
+Once a user has signed up and accepted the terms, the core program functions kick in. These functions revolve around policies, job numbers, signatures, records, and printing.
+
+1. Policy Management
+
+Admin (or authorized staff) can create and manage different policies.
+
+Each policy has:
+
+Policy ID
+
+Policy text (the actual terms)
+
+Date created / last updated
+
+Version number
+
+👉 Example:
+
+Policy 001 – “Repair Terms & Conditions”
+
+Policy 002 – “Service Agreement for Lawn Equipment”
+
+2. Add New Policy to a Job
+
+When a customer brings in a machine or requires a service, the staff member creates a Job Card.
+
+Each Job Card includes:
+
+Unique Job Number (auto-generated or manual input)
+
+Customer Details (Name, Contact, Email, Address, etc.)
+
+Machine Details (Brand, Model, Serial Number, Condition)
+
+Related Policy (choose from the saved policies in the system)
+
+Photos of the machine (taken from phone or uploaded from computer)
+
+👉 Example:
+Job Number: J-2025-001
+Customer: John Smith
+Machine: Stihl Lawnmower, Model X500
+Policy Attached: Policy 001 (Repair Terms)
+
+3. Customer Signature Process
+
+Customer is presented with the Policy + Job Card on-screen (tablet, phone, or PC).
+
+Customer signs digitally:
+
+Finger/stylus on touchscreen OR
+
+Mouse input OR
+
+Type-to-sign with authentication (less secure)
+
+Signature is saved and bound to:
+
+Customer record
+
+Job Number
+
+Policy version
+
+👉 Example:
+John signs the Repair Terms (Policy 001) for Job J-2025-001. His signature, date, and time are stored permanently.
+
+4. Viewing & Searching
+
+The program includes a search & filter system so staff can quickly find signed policies and jobs. Search filters include:
+
+Job Number
+
+Customer Name
+
+Date Range
+
+Machine Type / Serial Number
+
+Policy ID / Version
+
+Signed (Yes/No)
+
+👉 Example:
+Search “Job Number J-2025-001” → Shows John Smith’s signed policy, machine details, and photos.
+
+5. Printing a Job Card + Policy
+
+When a job card is completed, the program can generate a printable document that contains:
+
+Header Information
+
+Company Name, Logo, Contact Info
+
+Job Number, Date, Customer Info
+
+Machine Information
+
+Description, Model, Serial Number
+
+Photos of the machine (before repair/service)
+
+Policy Section
+
+Full text of the attached policy (Policy 001, etc.)
+
+Version number & date
+
+Signature Section
+
+Customer signature
+
+Staff signature (if required)
+
+Date & time of signing
+
+✅ This is all formatted neatly on one printable PDF page (or multiple if needed).
+
+👉 Example:
+A printed page shows:
+
+Job Number J-2025-001
+
+Customer: John Smith
+
+Machine photo on left, description on right
+
+Policy terms below
+
+Signature box with John’s signed digital signature at the bottom
+
+6. Saving & Syncing
+
+Each signed job card with policy is saved in the local WiFi database (like explained earlier).
+
+When on another WiFi, it syncs with that network’s database.
+
+PDF copy of the signed job card can also be exported and emailed to the customer automatically for their records.
+
+🚀 Summary of Features After Sign-Up
+
+Add policies → store in system.
+
+Create job cards → link policy + machine + customer.
+
+Capture signatures → digital signing system.
+
+Store & search → filter by job number, customer, or policy.
+
+Print → one-page document with machine photo, policy text, and signatures.
+
+Save & sync → WiFi-based network storage, optional email export.
+
+Nathan, this sounds like a hybrid between a digital signature system, a CRM (customer management system), and a job card tracking system 👌.

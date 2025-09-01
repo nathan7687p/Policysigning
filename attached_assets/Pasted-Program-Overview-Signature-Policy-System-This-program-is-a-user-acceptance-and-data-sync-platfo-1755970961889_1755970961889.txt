@@ -1,0 +1,119 @@
+Program Overview (Signature + Policy System)
+
+This program is a user acceptance and data-sync platform with two key features:
+
+Digital Signature for Policies
+
+When a user signs up, they must digitally sign or tick acceptance of the Privacy Policy and Terms & Conditions.
+
+If they don’t sign, they cannot proceed.
+
+The system records:
+
+User’s email/username
+
+Time & date of acceptance
+
+Version of the policy accepted
+
+Digital fingerprint (unique signature ID linked to the account)
+
+WiFi-Connected File & Usage Sync
+
+The program saves and syncs data only within the same WiFi network.
+
+If User A and User B are on the same WiFi, they see the same shared files and usage history.
+
+If a user connects to another WiFi, they will sync with the people on that WiFi only, not from the previous one.
+
+This creates local network-based storage groups where usage and files are tied to WiFi networks, not global servers.
+
+🛠 How It Works (Step by Step)
+1. Sign-Up & Policy Acceptance
+
+User downloads or opens the program.
+
+They reach the sign-up screen:
+
+Username/email input
+
+Password input
+
+Checkbox: “I accept the Privacy Policy & Terms”
+
+Once checked, the system forces the user to digitally sign (could be typing their name, using a stylus, or fingerprint if device supports it).
+
+The acceptance is stored in a local encrypted file linked to their WiFi network.
+
+👉 Example:
+
+John signs up at home WiFi. His acceptance file is saved on the local network storage tied to his home WiFi ID.
+
+2. Login & Policy Validation
+
+Each time a user logs in:
+
+System checks if their policy acceptance is valid (matches the latest version).
+
+If outdated → they must re-sign and accept before access is granted.
+
+If valid → access is granted immediately.
+
+👉 Example:
+
+If the Privacy Policy was updated on 01 Sept 2025, and John last signed on 20 Aug 2025, the system will force him to re-sign on his next login.
+
+3. WiFi-Connected Syncing
+
+The program identifies the WiFi network ID (SSID + MAC address of router).
+
+All files and usage history are stored locally per WiFi group.
+
+Any user on the same WiFi:
+
+Can access and share files stored under that WiFi ID.
+
+Usage logs are combined, meaning activity looks the same across users connected to that WiFi.
+
+👉 Example:
+
+John and Sarah both connect to “Home_WiFi”.
+
+They can see the same shared files and activity logs.
+
+👉 If John moves to “Office_WiFi”:
+
+His app syncs with the Office_WiFi data instead.
+
+He won’t see Sarah’s files from Home_WiFi while at the office.
+
+4. Data Storage & Security
+
+Every WiFi group acts like a mini private cloud, but limited to people on that network.
+
+Files are stored with encryption so that only users in that WiFi group (verified by login) can access them.
+
+Logs saved include:
+
+Who signed in
+
+Which files were created/edited
+
+Policy acceptance details
+
+5. Why This System is Unique
+
+Most platforms sync data globally over the internet.
+
+Your program is network-isolated, meaning:
+
+At home → home users share data
+
+At school → school users share data
+
+At work → work users share data
+
+This makes the program location-dependent, useful for private team sharing, schools, workplaces, or home networks.
+
+✅ In summary:
+The program ensures that no one can use it without digitally signing the Privacy Policy & Terms. Once signed, usage and files are stored based on the WiFi network the user is on. Each WiFi works as a separate data universe, so what you do on one WiFi doesn’t follow you to another—your data “travels with the network,” not with the device.
